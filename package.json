@@ -1,0 +1,26 @@
+{
+  "homepage": "http://vmittal26.github.io/git-hub-next-app",
+  "name": "git-hub-next-app",
+  "version": "1.0.0",
+  "scripts": {
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build",
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "type-check": "tsc"
+  },
+  "dependencies": {
+    "next": "latest",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "devDependencies": {
+    "@types/node": "^12.12.21",
+    "@types/react": "^16.9.16",
+    "@types/react-dom": "^16.9.4",
+    "gh-pages": "^2.2.0",
+    "typescript": "3.7.3"
+  },
+  "license": "ISC"
+}
